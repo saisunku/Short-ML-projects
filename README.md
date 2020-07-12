@@ -44,6 +44,7 @@ Another problem is that a word can potentially appear infinitely many times in a
 
 ### Visualization
 ![d0b51c116622bcd4f93a9f49db8f96c3.png](https://raw.githubusercontent.com/saisunku/Short-ML-projects/master/some_hammy_spammy_words.png)
+
 First, we can visualize the dataset by considering some "hammy" and "spammy" words. Words like `hr` and `error` are much more likely to appear in ham emails than spam, while words such as `bank` and `money` appear more often in spam emails.
 
 ### Performance of the Naive Bayes classifier

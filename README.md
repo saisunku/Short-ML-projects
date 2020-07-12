@@ -137,4 +137,4 @@ With more careful hyperparameter tuning, the accuracy could be improved.
 # Digit classification
 Filename: `perceptron_mnist.py`
 Here, I used different [perceptron algorithms](https://en.wikipedia.org/wiki/Perceptron) to classify handwritten digits (MNIST dataset). I achieved close to 90% accuracy even with this very simple linear classifier.
-[perceptron_mnist_performance.png](https://raw.githubusercontent.com/saisunku/Short-ML-projects/master/perceptron_performance.png)
+![perceptron_mnist_performance.png](https://raw.githubusercontent.com/saisunku/Short-ML-projects/master/perceptron_performance.png)

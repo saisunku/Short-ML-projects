@@ -43,7 +43,7 @@ One problem with the above expressions is that if `P(word1|spam)` is zero, then 
 Another problem is that a word can potentially appear infinitely many times in an email. So in principle, I should track of an infinite number of possible counts. To avoid this, I used a maximum count `mc`. If a word appears more than `mc` times in an email, I treat it as appearing `mc` times.
 
 ### Visualization
-![d0b51c116622bcd4f93a9f49db8f96c3.png](:/d2fa0fb3492447bcab7cb244a831a20c)
+![d0b51c116622bcd4f93a9f49db8f96c3.png](https://raw.githubusercontent.com/saisunku/Short-ML-projects/master/hammy_spammy_words.png)
 First, we can visualize the dataset by considering some "hammy" and "spammy" words. Words like `hr` and `error` are much more likely to appear in ham emails than spam, while words such as `bank` and `money` appear more often in spam emails.
 
 ### Performance of the Naive Bayes classifier
@@ -90,7 +90,7 @@ where `ham_mean` is the number of times the word appears in ham emails and `spam
 
 Here's a histogram of the variance for all the words in the dataset
 
-![62d30e8dc7394de5a4614a2894b3653b.png](:/911a63072e7243c594ff26a36734d548)
+![62d30e8dc7394de5a4614a2894b3653b.png](https://raw.githubusercontent.com/saisunku/Short-ML-projects/master/words_interclass_variance.png)
 
 Most words have a variance of zero. The words with the highest variance were `ect`, `hou`, `fischer`, `unoc`, `purchas` and `to`.
 
@@ -136,3 +136,4 @@ With more careful hyperparameter tuning, the accuracy could be improved.
 # Digit classification
 Filename: `perceptron_mnist.py`
 Here, I used different [perceptron algorithms](https://en.wikipedia.org/wiki/Perceptron) to classify handwritten digits (MNIST dataset). I achieved close to 90% accuracy even with this very simple linear classifier.
+[perceptron_mnist_performance.png](https://raw.githubusercontent.com/saisunku/Short-ML-projects/master/perceptron_performance.png)

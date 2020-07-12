@@ -1,8 +1,8 @@
-There are some short ML projects that I coded up from scratch as part of the [CS4771](http://www.cs.columbia.edu/~verma/classes/ml/index.html) course at Columbia.
+These are some short ML projects that I coded up from scratch as part of the [CS4771](http://www.cs.columbia.edu/~verma/classes/ml/index.html) course at Columbia.
 
 # Email classification
 
-I trained two classifiers to classify spam emails. The first classifier is a naive Bayes classifier, which was [one of the first spam filters ever implemented](http://www.paulgraham.com/better.html). The second classifier is a decision tree classifier.
+I trained two classifiers to classify spam emails. The first classifier is a naive Bayes classifier, which was [one of the first spam filters ever implemented](http://www.paulgraham.com/spam.html). The second classifier is a decision tree classifier.
 
 The naive Bayes classifier achieved >93% accuracy and the decision tree achieved >90% accuracy.
 
@@ -20,7 +20,7 @@ Each email is represented using the [bag-of-words model](https://en.wikipedia.or
 ----
 Filename: `email_spam_naive_bayes.py`
 
-The Naïve Bayes is based on the Bayes rule. Given a test email `test_email`, we estimate the probability of it being a spam email as follows:
+The NaÃ¯ve Bayes is based on the Bayes rule. Given a test email `test_email`, we estimate the probability of it being a spam email as follows:
 
 `P(spam|test_email) = P(test_email|spam) * P(spam) / P(test_email)`
 
